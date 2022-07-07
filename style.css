@@ -1,0 +1,52 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.aparelho{
+    background: rgb(255, 0, 0);
+    display: inline-block;
+    padding: 5px;
+    text-align: center;
+
+}
+
+.botoes{
+    background: white;
+    padding: 15px;
+    margin: 0 7px;
+    font-size: 20px;
+}
+
+ul{
+    text-decoration: none;
+    
+}
+
+.teclado{
+    text-decoration: none;
+    padding: 1px;
+    display: inline-block;
+}
+
+.tela{
+    margin: 0;
+    padding: 10px;
+    background: white;
+    
+}
+
+.botoes:hover{
+    background: blue;
+    color: white;
+}
+
+.cor_selecionada{
+    width: 100px;
+    height: 100px;
+    border-style: inset;
+    position: absolute;
+    top: 50px;
+    left: 300px;
+    border-color: darkgray;
+}
