@@ -1,6 +1,12 @@
 
 
-const tela = document.getElementsByClassName('tela')
+const tela1 = document.getElementById('tela');
+
+const botao = document.querySelectorAll('botoes')
 
 
-tela.innerHTML(`1`)
+function exibeTela(){
+    
+}
+
+document.addEventListener('click',)

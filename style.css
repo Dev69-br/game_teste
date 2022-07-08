@@ -29,7 +29,7 @@ ul{
     display: inline-block;
 }
 
-.tela{
+#tela{
     margin: 0;
     padding: 10px;
     background: white;
