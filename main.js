@@ -2,11 +2,15 @@
 
 const tela1 = document.getElementById('tela');
 
-const botao = document.querySelectorAll('botoes')
+const botao = document.getElementsByClassName('botoes')
 
 
+const numeros = [];
 function exibeTela(){
-    
+    for(var cont = 0 ; cont < 3;cont++){
+        tela1.innerHTML = `${cont}`
+    }
+
 }
 
-document.addEventListener('click',)
+botao.addEventListener('click',exibeTela)
